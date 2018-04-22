@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e  # Exit on error.
-if false; then
+
 if [ -z ${1+x} ]; then
    echo Please specify the number of people! >&2; exit 1
 fi
